@@ -24,3 +24,13 @@ Prevent over-posting
 Productions apps typically limit the data that's input and returned using a subset of the model.
 The subset of a model is usually referred to as a Data Transfer Object (DTO), input model, or view model.
 The secret field needs to be hidden from this app, but an administrative app could choose to expose it.
+
+############################################################################################################
+
+Call an ASP.NET Core web API with JavaScript
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-javascript?view=aspnetcore-3.1
+
+HTML page containing forms for creating and managing to-do items
+Event handlers are attached to elements on the page. 
+The event handlers result in HTTP requests to the web API's action methods. 
+The Fetch API's fetch function initiates each HTTP request.
