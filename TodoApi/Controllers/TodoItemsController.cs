@@ -73,6 +73,7 @@ namespace TodoApi.Controllers
                 }
             }
 
+            //The response is 204 (No Content)
             return NoContent();
         }
 
