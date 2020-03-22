@@ -34,11 +34,13 @@ namespace TodoApi.Controllers
         {
             var todoItem = await _context.TodoItems.FindAsync(id);
 
+            //If no item matches the requested ID, the method returns a 404 NotFound error code
             if (todoItem == null)
             {
                 return NotFound();
             }
 
+            //Otherwise, the method returns 200 with a JSON response body. Returning item results in an HTTP 200 response
             return todoItem;
         }
 
